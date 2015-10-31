@@ -1,13 +1,45 @@
 <header class="header">
-	<div class="header-logo">ABRandom</div>
-	
-	<nav class="header-bg">
-		<a class="header-nav" href="" style="text-decoration: none">About us!</a></li>
-		<a class="header-nav" href="" style="text-decoration: none">Photographs</a></li>
-		<a class="header-nav" href="" style="text-decoration: none">Food</a></li>
-		<a class="header-nav" href="" style="text-decoration: none">Blog</a></li>
-	</nav>
 
+<nav class="navbar navbar-inverse navbar-fixed-top" role="banner">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">ABUNCHA RANDOM</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">ABOUT US! <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Photographs</a></li>
+        <li><a href="#">Food</a></li>
+        <li><a href="#">Blogs</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MOAR!<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">contact us!</a></li>
+            <li><a href="#">follo us!</a></li>
+            <li><a href="#">ambot na oy!</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+	
+	<div class="randomstuff">
 	<h1 class="random"><span>{{ site.title }}</span></h1>
 	<p class="kicker">{{ site.description }}</p>
+	</div>
 </header>
