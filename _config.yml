@@ -8,8 +8,6 @@
 # Site settings
 title: RANDOM STUFF
 description: Photography // Food // Blog
-baseurl: "" # the subpath of your site, e.g. /blog
-
 
 # Build settings
 markdown: kramdown
